@@ -1,0 +1,199 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 40%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+input[type="tel"] {
+  width: 100%;
+  max-width: 250px;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.2s ease-in-out;
+}
+
+input[type="tel"]::placeholder {
+  color: #424242;
+}
+
+input[type="tel"]:focus {
+  outline: none;
+  border-color: #f44336;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  margin: 0 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e53935;
+}
+
+button.selected {
+  background-color: #b71c1c;
+}
+
+.payment-button {
+  background-color: #e53935;
+  margin: 20px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 15px 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.payment-button:hover {
+  background-color: #d32f2f;
+}
+
+.secure-message {
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.selected-option {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bakiye h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.payment-button {
+  background-color: #e53935;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 35px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-family: "Montserrat", sans-serif;
+}
+
+.payment-button:hover {
+  background-color: #c62828;
+}
+
+.secure-message {
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #616161;
+  max-width: 220px;
+  text-align: center;
+}
+
+.selected-option {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #37474f;
+}
+
+.bakiye {
+  margin-top: 20px;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bakiye .son button {
+  margin-left: 10.5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bakiye h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #37474f;
+}
+
+.bakiye button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.bakiye button:hover {
+  background-color: #c62828;
+}
+
+.bakiye button.selected {
+  background-color: #b71c1c;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
