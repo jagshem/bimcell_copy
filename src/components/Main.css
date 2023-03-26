@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -15,6 +15,11 @@
   padding: 40px;
 }
 
+.container .secilen {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
 h1 {
   font-size: 36px;
   font-weight: 600;
@@ -22,7 +27,7 @@ h1 {
   text-align: center;
 }
 
-input[type="tel"] {
+input[type='tel'] {
   width: 100%;
   max-width: 250px;
   padding: 12px;
@@ -34,11 +39,11 @@ input[type="tel"] {
   transition: border-color 0.2s ease-in-out;
 }
 
-input[type="tel"]::placeholder {
+input[type='tel']::placeholder {
   color: #424242;
 }
 
-input[type="tel"]:focus {
+input[type='tel']:focus {
   outline: none;
   border-color: #f44336;
 }
@@ -58,7 +63,7 @@ button {
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
@@ -71,7 +76,7 @@ button.selected {
   background-color: #b71c1c;
 }
 
-.payment-button {
+.payment-button1 {
   background-color: #e53935;
   margin: 20px 10px;
   font-size: 20px;
@@ -82,14 +87,14 @@ button.selected {
   transition: background-color 0.3s ease;
 }
 
-.payment-button:hover {
+.payment-button1:hover {
   background-color: #d32f2f;
 }
 
 .secure-message {
   font-size: 14px;
   margin-top: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
@@ -97,7 +102,7 @@ button.selected {
   font-size: 36px;
   font-weight: 600;
   margin-top: 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .bakiye h3 {
@@ -106,7 +111,7 @@ button.selected {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .payment-button {
   background-color: #e53935;
@@ -121,7 +126,7 @@ button.selected {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .payment-button:hover {
@@ -131,7 +136,7 @@ button.selected {
 .secure-message {
   font-size: 14px;
   margin-top: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #616161;
   max-width: 220px;
   text-align: center;
@@ -141,7 +146,7 @@ button.selected {
   font-size: 24px;
   font-weight: 600;
   margin-top: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #37474f;
 }
 
@@ -166,7 +171,7 @@ button.selected {
   margin-bottom: 15px;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #37474f;
 }
 
@@ -179,7 +184,7 @@ button.selected {
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   transition: background-color 0.2s ease-in-out;
 }

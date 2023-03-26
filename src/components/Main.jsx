@@ -92,11 +92,11 @@ function Main() {
         >
           200 TL
         </button>
-        {selectedOption && <h3>Seçilen bakiye: {selectedOption} TL</h3>}
+        {selectedOption && <h3 className="secilen">Seçilen bakiye: {selectedOption} TL</h3>}
       </animated.div>
       {showOptions && (
         <animated.div style={bakiyeStyles}>
-          <button onClick={handleConfirmation} className="payment-button">
+          <button onClick={handleConfirmation} className="payment-button1">
             Ödemeye Geç
           </button>
           <p className="secure-message">
