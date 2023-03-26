@@ -16,6 +16,7 @@
   display: flex;
   align-items: center;
   height: 75px;
+  cursor: pointer;
 }
 
 .navbar-logo img {
